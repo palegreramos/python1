@@ -9,5 +9,5 @@ except ValueError as e:
     print("fError debe ser un número: {e}")
 except KeyboardInterrupt as e2:
     print(e2)
-except:
-    print("Excepción genérica")
+except Exception as e3:
+    print(e3)
